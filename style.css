@@ -54,6 +54,10 @@ form button {
     border-radius: 7px;
 }
 
+form button:hover {
+    text-decoration: underline;
+}
+
 ul li {
     font-size: 24px;
     padding: 8px;
@@ -74,6 +78,7 @@ ul li {
 
 .feito {
     text-decoration: line-through;
+    filter: brightness(85%);
 }
 
 @media (max-width: 768px) {
