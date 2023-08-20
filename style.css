@@ -59,6 +59,7 @@ form button:hover {
 }
 
 ul li {
+    transition: ease 0.3s;
     font-size: 24px;
     padding: 8px;
     background-color: #fff;
@@ -77,6 +78,7 @@ ul li {
 }
 
 .feito {
+    transition: all ease .3s;
     text-decoration: line-through;
     filter: brightness(85%);
 }
